@@ -13,6 +13,7 @@ gem 'rspec-rails', '~> 5.0', '>= 5.0.1'
 end
 
 
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
