@@ -14,7 +14,6 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 gem 'sass-rails', '~> 6.0'
-gem 'webpacker', '~> 5.4', '>= 5.4.3'
 gem 'turbolinks', '~> 5.2', '>= 5.2.1'
 
 
@@ -30,6 +29,7 @@ group :development do
   gem 'listen', '~> 3.7', '>= 3.7.1'
   gem 'spring', '~> 4.1'
   gem 'spring-watcher-listen', '~> 2.1'
+  gem 'solargraph', '~> 0.47.1'
 end
 
 group :test do
@@ -46,3 +46,4 @@ end
 group :production do
 gem 'pg', '~> 1.4', '>= 1.4.3'
 end
+
