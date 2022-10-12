@@ -48,3 +48,5 @@ gem 'pg', '~> 1.4', '>= 1.4.3'
 end
 
 gem 'full_title', '~> 0.0.1'
+gem 'bootstrap-will_paginate',    '1.0.0'
+gem 'bootstrap-sass',             '3.4.1'
