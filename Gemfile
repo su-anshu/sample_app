@@ -22,6 +22,7 @@ gem 'turbolinks', '~> 5.2', '>= 5.2.1'
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem "sqlite3", "~> 1.4"
+  gem 'byebug', '~> 11.1', '>= 11.1.3'
 end
 
 group :development do
